@@ -33,12 +33,12 @@ public class Main   {
 	loc1 = null; 
 	
 	final JFileChooser fcl = new JFileChooser();
-	// Open the dialog using null as parent component if you are outside a
-	// Java Swing application otherwise provide the parent comment instead
+	
 	int returnVal1 = fcl.showOpenDialog(null);
 	if (returnVal1 == JFileChooser.APPROVE_OPTION) {
 	    // Retrieve the selected file
 	    File file = fcl.getSelectedFile();
+	    //loc1 recives the forwards read .fastq location
 	    loc1 = file.getAbsolutePath(); 
 	}
 	
@@ -52,14 +52,17 @@ public class Main   {
 	final JFileChooser fcr = new JFileChooser();
 	if (returnVal2 == JFileChooser.APPROVE_OPTION) {
 	    File file = fcr.getSelectedFile();
+	   	//loc2 recives the reverse read .fastq location
 	    loc2 = file.getAbsolutePath(); 
 	} 
 	
-	System.out.println("Forward paired-end reads location: " + loc1);
+	System.out.println("Reverse paired-end reads location: " + loc2);
 
 	
 	/*This section calls the meataspades assembler. In order to gain more insight into the working
-	of the assembler please open the Assembler.java file*/
+	of the assembler please open the Assembler.java file
+	Commannds: pb.command("./metaspades.py", "-t 20", "--pe1-1", loc1, "--pe1-2", loc2, "-o", "../../Output");
+	*/
 	
 	Assembler asm = new Assembler();
 	
@@ -79,7 +82,7 @@ public class Main   {
 	
 	
 	/*This function is invoked after the Metaspades assembly is complete and prints out the scaffolds.fasta file 
-	after which it calls the BLAST program. 
+	after which it calls the BLAST program. (Not Important)
 	*/
 	
 	public static void printOutput(){
@@ -242,7 +245,6 @@ public class Main   {
 	}
 
 	// This function indexes the the resulting bam file for display in the tablet software and then terminates the program.
-	
 	
 	public static void samIndexing() {
 		 Index index = new Index();
