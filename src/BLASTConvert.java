@@ -32,6 +32,9 @@ public class BLASTConvert {
 		
 	File file = new File("Output/OPblast");
 
+	/*
+	STEP 1 of the Hommology Blocks aims to eliminate reads that map to themselves.
+	*/
 	  
     try{
 	    PrintWriter writer = new PrintWriter("Output/BLASTConvertOPHS1.txt", "UTF-8");
@@ -125,15 +128,29 @@ public class BLASTConvert {
 			So far, we have remove the reads that map to themslves and chaged the formatting a little. 
     */
 
+
+
     
-   // STEP 2 OF THE HOMOLOGY BLOCKS CREATION
-	
-	
-	//The files that stores the results from STEP 1 is opened at file2
+   /* STEP 2 OF THE HOMOLOGY BLOCKS CREATION
+	  This step aims to convert output from STEP 1
+
+	  *NODE_1_length_4930_cov_3093.5    :    NODE_18_length_437_cov_25.7277
+	   4321 4487  :   273 300
+	  *NODE_1_length_4930_cov_3093.5    :    NODE_18_length_437_cov_25.7277
+	   4321 4487  :   250 600
+
+	   TO 
+		
+	  *NODE_1_length_4930_cov_3093.5    :    NODE_18_length_437_cov_25.7277
+	   4321 4487  :  273 600
+
+	*/
+
+	//The files that stored the results from STEP 1 is opened at file2
 	File file2 = new File("Output/BLASTConvertOPHS1.txt");
 	
 	
-   
+	//The files that stores the results from STEP 2 is created and called Output/BLASTConvertOPHS2.txt
 	 
     try{
 	    PrintWriter writer = new PrintWriter("Output/BLASTConvertOPHS2.txt", "UTF-8");
@@ -153,6 +170,7 @@ public class BLASTConvert {
     	
     	while((line = br2.readLine()) != null) {
     		
+    		// Here, we are inside a loop that reads the output from STEP 1, line by line
     		
     		
     		if(line.startsWith("*")) {
@@ -196,13 +214,17 @@ public class BLASTConvert {
   	   		
    	}  	
     	
-   
-	
-  //Step 3 and Homology Creation
-  
-  
-  //Creates a mapping of node to ATGC values
-    
+
+	  /* HASH MAP CREATION FOR THE FINAL STEP LEADING TO THE HOMOLOGY BLOCKS CREATION
+	  Creates a mapping of node to ATGC values
+	  This function makes a Hash Map from the scaffolds.fasta file created with the metaspades 
+	  with keys as the Node Name and value as the reads for faster search or the reads while 
+	  creating the Homology Blocks. 
+	  Example: 
+	  KEY: NODE_3_length_1748_cov_262.91  VALUE: ATGCATTCGCAGTTAA
+	  The name of the map is scaffMap. (Scaffold Map)
+	  */
+
     Multimap<String, String> scaffMap = ArrayListMultimap.create();
     
     File file4 = new File("Output/scaffolds.fasta");
@@ -224,10 +246,13 @@ public class BLASTConvert {
     }
     
     
-    //Homlogy Creation
+    // FINAL STEP OF THE HOMOLOGY BLOCKS CREATION 
+
+    // The output from STEP 2 of the Homology Block creation in opened file5. 
     
 	File file5 = new File("Output/BLASTConvertOPHS2.txt");
 
+    // A multi map is a Hash Map that can have multiple values for a key. 
 
 	Multimap<String, String> multiMap = ArrayListMultimap.create();
 	
@@ -236,6 +261,45 @@ public class BLASTConvert {
     	line = br3.readLine(); 
     	for(int i = 0; (line = br3.readLine())!=null; ++i) {
     		
+    		// This loop iterates through each line of the result computed from STEP 2 of the Homology Creation Process.
+    		/*The main function of this loop is to provide a blueprint (i.e. the location of reads and node name for a later process to fetch data from the 
+    		scaffMap we created) This blue print is stored in multiMap with the format show in Now:
+			
+			Previously:
+
+			*NODE_1_length_4930_cov_3093.5    :    NODE_18_length_437_cov_25.7277
+			4321 : 4487   437 : 273
+			*NODE_1_length_4930_cov_3093.5    :    NODE_19_length_420_cov_8.91507
+			2354 : 2475   420 : 300
+			*NODE_1_length_4930_cov_3093.5    :    NODE_7_length_1581_cov_723.689
+			2709 : 2766   1581 : 1524
+			*NODE_1_length_4930_cov_3093.5    :    NODE_14_length_754_cov_8.96567
+			1296 : 1530   521 : 705 
+			*NODE_2_length_1975_cov_890.819    :    NODE_45_length_285_cov_1.02609
+			883 : 1121   284 : 47
+			*NODE_2_length_1975_cov_890.819    :    NODE_58_length_237_cov_2.57692
+			379 : 619   3 : 236
+			*NODE_2_length_1975_cov_890.819    :    NODE_36_length_323_cov_3.33209
+			1742 : 1874   196 : 323
+						
+			Now:
+			Homology Block #1
+			(Key)
+			*NODE_1_length_4930_cov_3093.5 
+			(Value)
+			4321 : 4487  NODE_18_length_437_cov_25.7277  437 : 273
+			2354 : 2475  NODE_19_length_420_cov_8.91507  420 : 300
+			2709 : 2766  NODE_7_length_1581_cov_723.689  1581 : 1524
+			1296 : 1530  NODE_14_length_754_cov_8.96567  521 : 705
+			Homology Block #2
+			(Key)
+			*NODE_2_length_1975_cov_890.819 
+			(Value)
+			883 : 1121   NODE_45_length_285_cov_1.02609  284 : 47
+			379 : 619    NODE_58_length_237_cov_2.57692  3 : 236
+			1742 : 1874  NODE_36_length_323_cov_3.33209  196 : 323	
+    		 */
+
     		if(!line.equals("\n") && !line.equals("*")) {
     			if(line.startsWith("*")) {
     			       String splitted[] = line.split("\\s+");
@@ -252,6 +316,11 @@ public class BLASTConvert {
  		   // do something
  		}
     
+ 		/*
+ 		FINAL STEP 
+ 		A new file named HomologyBlocks in created.
+ 		*/
+
        int  i = 1; 
 	
        new File("Output/HomologyBlocks").mkdir();
@@ -261,31 +330,34 @@ public class BLASTConvert {
        
 	   for(String key: multiMap.keySet()) {
 		   
-	    	
+	    	/* This loop iterates over each key in the multiMap and each key and ints corresponding values constitutes a Homology Block
+	   		 Thus a new file is created "Output/HomologyBlocks/"+i+".fasta" for each key value */
+
 	    	try{
 			    PrintWriter writer3 = new PrintWriter("Output/HomologyBlocks/"+i+".fasta", "UTF-8");
-			  //  writer.println(key); 
-			
+
+	    		++i; // This increments the file name for each Homology Block                             Left Node is the Key
+		        																							//       Left Read    Right Mapped Node               Right Node Location
+		    	Collection<String> values = multiMap.get(key);  //Gets the values for the corresponding key. Example: 1296 : 1530  NODE_14_length_754_cov_8.96567  521 : 705
+		    	Iterator<String> it = values.iterator(); 
+		    	while(it.hasNext()) {
+
+		    		//This Loop iterates through each value. 
+
+		    		String line2 = it.next();
+
+		    		// Splits the values when encountering spaces
+		    		String splitted2[] = line2.split("\\s+");
+		    	    
+		    		//Addition of Read Lengths for Class Alignment
+		    	    x.add(Integer.parseInt(splitted2[0]));
+		    	    y.add(Integer.parseInt(splitted2[2]));
+	    	    
+	    	    
 	    	
-	    	//writer.println("Homology Block #" + i);
-	    	++i; 
-	    
-	    	Collection<String> values = multiMap.get(key); 
-	    	Iterator<String> it = values.iterator(); 
-	    	while(it.hasNext()) {
-	    		String line2 = it.next();
-	    		String splitted2[] = line2.split("\\s+");
-	    	    
-	    		//Addition of Read Lengths for Class Alignment
-	    	    x.add(Integer.parseInt(splitted2[0]));
-	    	    y.add(Integer.parseInt(splitted2[2]));
-	    	    
-	    	    
-	    	    
-	    	  /*  System.out.println(line2);
-	    		
-	    	    System.out.println(splitted2[3].substring(0, splitted2[3].length()));*/
-	    	    
+	    	    /* The below line calls a function named printScaff that creates the homology blocks adding all the values by fetching the coressponding 
+	    	    values from the scaffMap we made from scaffolds.fasta
+	    		*/
 	    		printScaff(">" + splitted2[3].substring(0, splitted2[3].length()), scaffMap, splitted2[4], splitted2[6], writer3);
 	 
 	    	}
@@ -301,7 +373,9 @@ public class BLASTConvert {
 	    	
 	    	String keySplit[] = keyRead.split("\\s+");
 	    	
-	    		    	
+	        /* The below line calls a function named printScaff that creates the homology blocks adding the key to the end of the values by fetching the coressponding 
+	    	    values from the scaffMap we made from scaffolds.fasta, we call this printScaff seperately for the key since we have the same key with many read lengths.
+	    	*/	
 	    	printScaff(">" + key, scaffMap, keySplit[0], keySplit[2], writer3);
 	    	
 	    	x.clear();
@@ -340,7 +414,7 @@ public class BLASTConvert {
    
   
    
-	
+	//This function does the final conversion
 	
 	 public static void printScaff(String key,  Multimap<String, String> scaffMap, String start, String end, PrintWriter writer7) {
 		   
