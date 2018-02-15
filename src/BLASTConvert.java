@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Collection; 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -21,12 +21,14 @@ import com.google.common.*;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 
+
+/*
+The Process of creating the Homology Blocks from the Blast results is divided into three steps.
+*/
 public class BLASTConvert {
 
 	public void run() throws IOException {
 
-	
-	// Blast Convert 1 Creation
 		
 	File file = new File("Output/OPblast");
 
@@ -37,19 +39,47 @@ public class BLASTConvert {
 	
 	
 	try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+
+		/*
+		STEP 1: 
+		PrintWriter's writer object creates a new text file called BLASTConvertOPHS1.txt to store the
+		resuts from Step 1 of the Homology Creation. 
+		BuffredReadres br object contains the resulting file of our BLAST algorithm.
+		*/
 		
 	    String line;
 	    
+		/*
+		STEP 1: 
+		Creates two data structures, ll with typr LinkedList and hset with type HashSet
+		*/
 	    List<String> ll = new LinkedList<>();
 	    Set<String> hset = new HashSet<>(); 
 	  
 	    while ((line = br.readLine()) != null) {
 	    	
+		    /*
+			STEP 1: 
+			Inside of a loop that reads each line inside of br and store into the line string "line = br.readLine()"
+			*/
 	    
 	       String splitted[] = line.split("\\s+");
+
+	        /*
+			STEP 1: 
+			Each line is splitted when ever it encounters a space and stored into an array of string named splitted. 
+			splitted[0] contains name of left 
+            Example : Blast O/P : NODE_1_length_4930_cov_3093.5	1	4930	NODE_1_length_4930_cov_3093.5	1	4930
+					  splitted[0] = NODE_1_length_4930_cov_3093.5   splitted[3] = NODE_1_length_4930_cov_3093.5
+			*/
 	       
 	       if(!splitted[0].equals(splitted[3])){
 	    	   
+	    	   /*
+	    	   STEP 1:
+	    	   Here we check if splitted[0] is equal to splitted[3] (i.e. Mapping to each other), if it is true, then we do
+	    	   not add that line from the BLAST result to our Homology Block. */
+
 	    	   if(!hset.contains("*" + splitted[0] + "    :    "+ splitted[3])) {
 		    	   hset.add("*" + splitted[0] + "    :    "+ splitted[3]);
 		    	   ll.add("*" + splitted[0] + "    :    "+ splitted[3]);
@@ -76,14 +106,33 @@ public class BLASTConvert {
  	   e.printStackTrace();
  	 
  	}
-    
-   // Step 2 of Blast Convert
-	
-	
 
+    /*STEP 1: Is Over, by now, our output of STEP 1 is stored at Output/BLASTConvertOPHS1.txt
+
+    		We have converted the BLAST Output
+
+    		NODE_1_length_4930_cov_3093.5	1	4930	NODE_1_length_4930_cov_3093.5	1	4930
+			NODE_1_length_4930_cov_3093.5	4321	4487	NODE_18_length_437_cov_25.7277	437	273
+			NODE_1_length_4930_cov_3093.5	2354	2475	NODE_19_length_420_cov_8.91507	420	300
+
+			to 
+
+			*NODE_1_length_4930_cov_3093.5    :    NODE_18_length_437_cov_25.7277
+			4321 4487  :  437 273
+			*NODE_1_length_4930_cov_3093.5    :    NODE_19_length_420_cov_8.91507
+			2354 2475  :  420 300
+
+			So far, we have remove the reads that map to themslves and chaged the formatting a little. 
+    */
+
+    
+   // STEP 2 OF THE HOMOLOGY BLOCKS CREATION
+	
+	
+	//The files that stores the results from STEP 1 is opened at file2
 	File file2 = new File("Output/BLASTConvertOPHS1.txt");
 	
-	 
+	
    
 	 
     try{

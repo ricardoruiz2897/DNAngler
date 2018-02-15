@@ -173,7 +173,8 @@ public class Main   {
 		
 	}
 	
-	/*This section runs the blastConverter function which is designed to generate the Homology Blocks and stored in Output/Homology Blocks. 
+	/* OUR MAIN ALGORITHM (Homology Blocks Creation)
+	This section runs the blastConverter function which is designed to generate the Homology Blocks and stored in Output/Homology Blocks. 
 	For more information into the workings of this function please visit the BLASTConvert.java file. 
 	After the creation of the Homology Block, this function calls the indexing function of Burrows-Wheeler Aligner.
 	*/
