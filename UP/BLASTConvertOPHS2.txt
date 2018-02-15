@@ -1,0 +1,1094 @@
+   
+*NODE_1_length_4930_cov_3093.5    :    NODE_18_length_437_cov_25.7277
+4321 : 4487   437 : 273
+*NODE_1_length_4930_cov_3093.5    :    NODE_19_length_420_cov_8.91507
+2354 : 2475   420 : 300
+*NODE_1_length_4930_cov_3093.5    :    NODE_7_length_1581_cov_723.689
+2709 : 2766   1581 : 1524
+*NODE_1_length_4930_cov_3093.5    :    NODE_14_length_754_cov_8.96567
+1296 : 1530   521 : 705
+*NODE_2_length_1975_cov_890.819    :    NODE_45_length_285_cov_1.02609
+883 : 1121   284 : 47
+*NODE_2_length_1975_cov_890.819    :    NODE_58_length_237_cov_2.57692
+379 : 619   3 : 236
+*NODE_2_length_1975_cov_890.819    :    NODE_36_length_323_cov_3.33209
+1742 : 1874   196 : 323
+*NODE_3_length_1748_cov_262.91    :    NODE_6_length_1583_cov_441.94
+417 : 1441   366 : 1401
+*NODE_3_length_1748_cov_262.91    :    NODE_28_length_365_cov_470.781
+1107 : 1467   1 : 365
+*NODE_3_length_1748_cov_262.91    :    NODE_64_length_224_cov_372.781
+1533 : 1748   10 : 224
+*NODE_3_length_1748_cov_262.91    :    NODE_13_length_851_cov_2.17211
+1607 : 1748   296 : 154
+*NODE_3_length_1748_cov_262.91    :    NODE_37_length_322_cov_2.61049
+1607 : 1748   163 : 21
+*NODE_3_length_1748_cov_262.91    :    NODE_11_length_1043_cov_535.583
+1694 : 1748   1 : 55
+*NODE_4_length_1684_cov_2.60896    :    NODE_10_length_1178_cov_3.07302
+1 : 1185   3 : 1178
+*NODE_4_length_1684_cov_2.60896    :    NODE_25_length_381_cov_1.6135
+534 : 922   1 : 373
+*NODE_4_length_1684_cov_2.60896    :    NODE_13_length_851_cov_2.17211
+1270 : 1501   778 : 547
+*NODE_4_length_1684_cov_2.60896    :    NODE_37_length_322_cov_2.61049
+1617 : 1681   322 : 258
+*NODE_5_length_1591_cov_614.671    :    NODE_7_length_1581_cov_723.689
+21 : 1566   1537 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_26_length_367_cov_12.2468
+889 : 1256   367 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_34_length_323_cov_3.93284
+189 : 509   323 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_23_length_389_cov_3.37425
+53 : 436   387 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_38_length_318_cov_3.22814
+188 : 502   318 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_29_length_359_cov_6.16776
+1196 : 1563   1 : 359
+*NODE_5_length_1591_cov_614.671    :    NODE_31_length_346_cov_3.62887
+1214 : 1563   341 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_32_length_342_cov_2.97909
+1219 : 1571   342 : 1
+*NODE_5_length_1591_cov_614.671    :    NODE_96_length_72_cov_474.235
+1202 : 1273   1 : 72
+*NODE_5_length_1591_cov_614.671    :    NODE_79_length_197_cov_8.76761
+1013 : 1230   1 : 197
+*NODE_6_length_1583_cov_441.94    :    NODE_3_length_1748_cov_262.91
+366 : 1401   417 : 1441
+*NODE_7_length_1581_cov_723.689    :    NODE_5_length_1591_cov_614.671
+1 : 1537   1566 : 21
+*NODE_7_length_1581_cov_723.689    :    NODE_34_length_323_cov_3.93284
+1051 : 1372   1 : 323
+*NODE_7_length_1581_cov_723.689    :    NODE_38_length_318_cov_3.22814
+1058 : 1373   1 : 318
+*NODE_7_length_1581_cov_723.689    :    NODE_26_length_367_cov_12.2468
+305 : 671   1 : 367
+*NODE_7_length_1581_cov_723.689    :    NODE_23_length_389_cov_3.37425
+1132 : 1399   8 : 275
+*NODE_7_length_1581_cov_723.689    :    NODE_29_length_359_cov_6.16776
+236 : 365   130 : 1
+*NODE_7_length_1581_cov_723.689    :    NODE_79_length_197_cov_8.76761
+331 : 542   197 : 6
+*NODE_7_length_1581_cov_723.689    :    NODE_1_length_4930_cov_3093.5
+1527 : 1581   2763 : 2709
+*NODE_7_length_1581_cov_723.689    :    NODE_96_length_72_cov_474.235
+288 : 358   72 : 2
+*NODE_7_length_1581_cov_723.689    :    NODE_32_length_342_cov_2.97909
+233 : 342   233 : 342
+*NODE_7_length_1581_cov_723.689    :    NODE_31_length_346_cov_3.62887
+244 : 352   238 : 346
+*NODE_9_length_1365_cov_485.237    :    NODE_11_length_1043_cov_535.583
+232 : 1168   104 : 1040
+*NODE_9_length_1365_cov_485.237    :    NODE_73_length_207_cov_2.52632
+433 : 639   207 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_84_length_103_cov_97.1667
+276 : 376   103 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_91_length_90_cov_205.743
+335 : 424   90 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_89_length_92_cov_42.0541
+322 : 413   92 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_95_length_79_cov_126.708
+335 : 413   1 : 79
+*NODE_9_length_1365_cov_485.237    :    NODE_94_length_79_cov_206.458
+335 : 413   1 : 79
+*NODE_9_length_1365_cov_485.237    :    NODE_61_length_232_cov_0.881356
+30 : 170   2 : 142
+*NODE_9_length_1365_cov_485.237    :    NODE_98_length_68_cov_95.8462
+322 : 389   68 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_97_length_68_cov_170.846
+322 : 389   1 : 68
+*NODE_9_length_1365_cov_485.237    :    NODE_13_length_851_cov_2.17211
+62 : 316   259 : 8
+*NODE_9_length_1365_cov_485.237    :    NODE_104_length_66_cov_50.5455
+359 : 424   1 : 66
+*NODE_9_length_1365_cov_485.237    :    NODE_103_length_66_cov_197.909
+359 : 424   66 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_102_length_66_cov_366.818
+359 : 424   66 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_100_length_68_cov_29.8462
+324 : 389   1 : 68
+*NODE_9_length_1365_cov_485.237    :    NODE_90_length_92_cov_21.4324
+326 : 413   88 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_88_length_92_cov_105.892
+326 : 413   5 : 92
+*NODE_9_length_1365_cov_485.237    :    NODE_87_length_92_cov_228.622
+326 : 413   5 : 92
+*NODE_9_length_1365_cov_485.237    :    NODE_109_length_63_cov_30.625
+370 : 432   1 : 63
+*NODE_9_length_1365_cov_485.237    :    NODE_107_length_63_cov_107.875
+370 : 432   1 : 63
+*NODE_9_length_1365_cov_485.237    :    NODE_105_length_63_cov_184.125
+370 : 432   1 : 63
+*NODE_9_length_1365_cov_485.237    :    NODE_101_length_68_cov_28.0769
+324 : 389   68 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_99_length_68_cov_41.8462
+324 : 389   1 : 68
+*NODE_9_length_1365_cov_485.237    :    NODE_110_length_63_cov_11.375
+370 : 432   63 : 1
+*NODE_9_length_1365_cov_485.237    :    NODE_108_length_63_cov_72.625
+370 : 432   1 : 63
+*NODE_9_length_1365_cov_485.237    :    NODE_106_length_63_cov_153.375
+370 : 432   1 : 63
+*NODE_10_length_1178_cov_3.07302    :    NODE_4_length_1684_cov_2.60896
+3 : 1178   1 : 1185
+*NODE_10_length_1178_cov_3.07302    :    NODE_25_length_381_cov_1.6135
+536 : 913   1 : 373
+*NODE_11_length_1043_cov_535.583    :    NODE_9_length_1365_cov_485.237
+104 : 1040   232 : 1168
+*NODE_11_length_1043_cov_535.583    :    NODE_90_length_92_cov_21.4324
+194 : 285   92 : 1
+*NODE_11_length_1043_cov_535.583    :    NODE_88_length_92_cov_105.892
+194 : 285   1 : 92
+*NODE_11_length_1043_cov_535.583    :    NODE_87_length_92_cov_228.622
+194 : 285   1 : 92
+*NODE_11_length_1043_cov_535.583    :    NODE_91_length_90_cov_205.743
+222 : 296   75 : 1
+*NODE_11_length_1043_cov_535.583    :    NODE_104_length_66_cov_50.5455
+231 : 296   1 : 66
+*NODE_11_length_1043_cov_535.583    :    NODE_103_length_66_cov_197.909
+231 : 296   66 : 1
+*NODE_11_length_1043_cov_535.583    :    NODE_102_length_66_cov_366.818
+231 : 296   66 : 1
+*NODE_11_length_1043_cov_535.583    :    NODE_89_length_92_cov_42.0541
+198 : 285   88 : 1
+*NODE_11_length_1043_cov_535.583    :    NODE_110_length_63_cov_11.375
+242 : 304   63 : 1
+*NODE_11_length_1043_cov_535.583    :    NODE_108_length_63_cov_72.625
+242 : 304   1 : 63
+*NODE_11_length_1043_cov_535.583    :    NODE_106_length_63_cov_153.375
+242 : 304   1 : 63
+*NODE_11_length_1043_cov_535.583    :    NODE_95_length_79_cov_126.708
+219 : 285   13 : 79
+*NODE_11_length_1043_cov_535.583    :    NODE_94_length_79_cov_206.458
+219 : 285   13 : 79
+*NODE_11_length_1043_cov_535.583    :    NODE_109_length_63_cov_30.625
+242 : 304   1 : 63
+*NODE_11_length_1043_cov_535.583    :    NODE_107_length_63_cov_107.875
+242 : 304   1 : 63
+*NODE_11_length_1043_cov_535.583    :    NODE_105_length_63_cov_184.125
+242 : 304   1 : 63
+*NODE_11_length_1043_cov_535.583    :    NODE_13_length_851_cov_2.17211
+3 : 193   206 : 3
+*NODE_11_length_1043_cov_535.583    :    NODE_64_length_224_cov_372.781
+1 : 55   170 : 224
+*NODE_11_length_1043_cov_535.583    :    NODE_3_length_1748_cov_262.91
+1 : 55   1694 : 1748
+*NODE_11_length_1043_cov_535.583    :    NODE_37_length_322_cov_2.61049
+1 : 58   75 : 18
+*NODE_11_length_1043_cov_535.583    :    NODE_100_length_68_cov_29.8462
+219 : 261   26 : 68
+*NODE_13_length_851_cov_2.17211    :    NODE_37_length_322_cov_2.61049
+150 : 393   17 : 259
+*NODE_13_length_851_cov_2.17211    :    NODE_4_length_1684_cov_2.60896
+547 : 778   1501 : 1270
+*NODE_13_length_851_cov_2.17211    :    NODE_64_length_224_cov_372.781
+154 : 306   224 : 73
+*NODE_13_length_851_cov_2.17211    :    NODE_3_length_1748_cov_262.91
+154 : 296   1748 : 1607
+*NODE_13_length_851_cov_2.17211    :    NODE_9_length_1365_cov_485.237
+8 : 259   316 : 62
+*NODE_13_length_851_cov_2.17211    :    NODE_11_length_1043_cov_535.583
+3 : 206   193 : 3
+*NODE_14_length_754_cov_8.96567    :    NODE_1_length_4930_cov_3093.5
+521 : 754   1296 : 1481
+*NODE_18_length_437_cov_25.7277    :    NODE_1_length_4930_cov_3093.5
+273 : 437   4487 : 4321
+*NODE_19_length_420_cov_8.91507    :    NODE_1_length_4930_cov_3093.5
+300 : 420   2475 : 2354
+*NODE_22_length_392_cov_5160.42    :    NODE_83_length_104_cov_15.7551
+1 : 106   1 : 59
+*NODE_22_length_392_cov_5160.42    :    NODE_1_length_4930_cov_3093.5
+1 : 55   4876 : 4930
+*NODE_23_length_389_cov_3.37425    :    NODE_34_length_323_cov_3.93284
+1 : 248   75 : 323
+*NODE_23_length_389_cov_3.37425    :    NODE_38_length_318_cov_3.22814
+8 : 249   76 : 318
+*NODE_23_length_389_cov_3.37425    :    NODE_5_length_1591_cov_614.671
+1 : 387   436 : 53
+*NODE_23_length_389_cov_3.37425    :    NODE_7_length_1581_cov_723.689
+8 : 275   1132 : 1399
+*NODE_25_length_381_cov_1.6135    :    NODE_4_length_1684_cov_2.60896
+1 : 373   534 : 922
+*NODE_25_length_381_cov_1.6135    :    NODE_10_length_1178_cov_3.07302
+1 : 373   536 : 913
+*NODE_26_length_367_cov_12.2468    :    NODE_5_length_1591_cov_614.671
+1 : 367   1256 : 889
+*NODE_26_length_367_cov_12.2468    :    NODE_7_length_1581_cov_723.689
+1 : 367   305 : 671
+*NODE_26_length_367_cov_12.2468    :    NODE_79_length_197_cov_8.76761
+27 : 243   197 : 1
+*NODE_26_length_367_cov_12.2468    :    NODE_96_length_72_cov_474.235
+1 : 55   55 : 1
+*NODE_26_length_367_cov_12.2468    :    NODE_29_length_359_cov_6.16776
+1 : 54   61 : 8
+*NODE_26_length_367_cov_12.2468    :    NODE_31_length_346_cov_3.62887
+1 : 43   299 : 341
+*NODE_26_length_367_cov_12.2468    :    NODE_32_length_342_cov_2.97909
+1 : 38   305 : 342
+*NODE_28_length_365_cov_470.781    :    NODE_3_length_1748_cov_262.91
+1 : 365   1107 : 1467
+*NODE_29_length_359_cov_6.16776    :    NODE_32_length_342_cov_2.97909
+24 : 359   342 : 9
+*NODE_29_length_359_cov_6.16776    :    NODE_31_length_346_cov_3.62887
+14 : 359   346 : 1
+*NODE_29_length_359_cov_6.16776    :    NODE_5_length_1591_cov_614.671
+1 : 359   1196 : 1563
+*NODE_29_length_359_cov_6.16776    :    NODE_7_length_1581_cov_723.689
+1 : 133   365 : 233
+*NODE_29_length_359_cov_6.16776    :    NODE_96_length_72_cov_474.235
+8 : 78   2 : 72
+*NODE_29_length_359_cov_6.16776    :    NODE_26_length_367_cov_12.2468
+11 : 61   51 : 1
+*NODE_29_length_359_cov_6.16776    :    NODE_79_length_197_cov_8.76761
+1 : 35   163 : 197
+*NODE_31_length_346_cov_3.62887    :    NODE_32_length_342_cov_2.97909
+1 : 336   9 : 342
+*NODE_31_length_346_cov_3.62887    :    NODE_29_length_359_cov_6.16776
+1 : 346   359 : 14
+*NODE_31_length_346_cov_3.62887    :    NODE_5_length_1591_cov_614.671
+1 : 341   1563 : 1214
+*NODE_31_length_346_cov_3.62887    :    NODE_7_length_1581_cov_723.689
+238 : 346   244 : 352
+*NODE_31_length_346_cov_3.62887    :    NODE_96_length_72_cov_474.235
+282 : 341   72 : 13
+*NODE_31_length_346_cov_3.62887    :    NODE_26_length_367_cov_12.2468
+299 : 341   1 : 43
+*NODE_32_length_342_cov_2.97909    :    NODE_31_length_346_cov_3.62887
+9 : 342   1 : 336
+*NODE_32_length_342_cov_2.97909    :    NODE_29_length_359_cov_6.16776
+9 : 342   359 : 24
+*NODE_32_length_342_cov_2.97909    :    NODE_5_length_1591_cov_614.671
+1 : 342   1571 : 1219
+*NODE_32_length_342_cov_2.97909    :    NODE_96_length_72_cov_474.235
+288 : 342   72 : 18
+*NODE_32_length_342_cov_2.97909    :    NODE_7_length_1581_cov_723.689
+233 : 342   233 : 342
+*NODE_32_length_342_cov_2.97909    :    NODE_26_length_367_cov_12.2468
+305 : 342   1 : 38
+*NODE_33_length_325_cov_2.12593    :    NODE_40_length_298_cov_0.847737
+265 : 318   298 : 245
+*NODE_34_length_323_cov_3.93284    :    NODE_38_length_318_cov_3.22814
+8 : 323   1 : 317
+*NODE_34_length_323_cov_3.93284    :    NODE_23_length_389_cov_3.37425
+75 : 323   1 : 248
+*NODE_34_length_323_cov_3.93284    :    NODE_5_length_1591_cov_614.671
+1 : 323   509 : 189
+*NODE_34_length_323_cov_3.93284    :    NODE_7_length_1581_cov_723.689
+1 : 323   1051 : 1372
+*NODE_36_length_323_cov_3.33209    :    NODE_2_length_1975_cov_890.819
+196 : 323   1742 : 1874
+*NODE_37_length_322_cov_2.61049    :    NODE_13_length_851_cov_2.17211
+17 : 259   150 : 393
+*NODE_37_length_322_cov_2.61049    :    NODE_64_length_224_cov_372.781
+21 : 163   224 : 83
+*NODE_37_length_322_cov_2.61049    :    NODE_3_length_1748_cov_262.91
+21 : 163   1748 : 1607
+*NODE_37_length_322_cov_2.61049    :    NODE_4_length_1684_cov_2.60896
+258 : 322   1681 : 1617
+*NODE_37_length_322_cov_2.61049    :    NODE_11_length_1043_cov_535.583
+21 : 75   55 : 1
+*NODE_38_length_318_cov_3.22814    :    NODE_34_length_323_cov_3.93284
+1 : 317   8 : 323
+*NODE_38_length_318_cov_3.22814    :    NODE_23_length_389_cov_3.37425
+76 : 318   8 : 249
+*NODE_38_length_318_cov_3.22814    :    NODE_5_length_1591_cov_614.671
+1 : 318   502 : 188
+*NODE_38_length_318_cov_3.22814    :    NODE_7_length_1581_cov_723.689
+1 : 318   1058 : 1373
+*NODE_40_length_298_cov_0.847737    :    NODE_33_length_325_cov_2.12593
+245 : 298   318 : 265
+*NODE_43_length_294_cov_3.61088    :    NODE_72_length_209_cov_1.74026
+48 : 238   17 : 205
+*NODE_45_length_285_cov_1.02609    :    NODE_2_length_1975_cov_890.819
+47 : 284   1121 : 883
+*NODE_47_length_275_cov_2.24091    :    NODE_67_length_220_cov_1.53939
+57 : 275   217 : 1
+*NODE_58_length_237_cov_2.57692    :    NODE_2_length_1975_cov_890.819
+3 : 236   379 : 619
+*NODE_61_length_232_cov_0.881356    :    NODE_9_length_1365_cov_485.237
+2 : 142   30 : 170
+*NODE_64_length_224_cov_372.781    :    NODE_3_length_1748_cov_262.91
+10 : 224   1533 : 1748
+*NODE_64_length_224_cov_372.781    :    NODE_13_length_851_cov_2.17211
+73 : 224   306 : 154
+*NODE_64_length_224_cov_372.781    :    NODE_37_length_322_cov_2.61049
+83 : 224   163 : 21
+*NODE_64_length_224_cov_372.781    :    NODE_11_length_1043_cov_535.583
+170 : 224   1 : 55
+*NODE_67_length_220_cov_1.53939    :    NODE_47_length_275_cov_2.24091
+1 : 220   275 : 54
+*NODE_72_length_209_cov_1.74026    :    NODE_43_length_294_cov_3.61088
+17 : 205   48 : 238
+*NODE_73_length_207_cov_2.52632    :    NODE_9_length_1365_cov_485.237
+1 : 207   639 : 433
+*NODE_79_length_197_cov_8.76761    :    NODE_7_length_1581_cov_723.689
+6 : 197   542 : 331
+*NODE_79_length_197_cov_8.76761    :    NODE_26_length_367_cov_12.2468
+1 : 197   243 : 27
+*NODE_79_length_197_cov_8.76761    :    NODE_5_length_1591_cov_614.671
+1 : 197   1013 : 1230
+*NODE_79_length_197_cov_8.76761    :    NODE_29_length_359_cov_6.16776
+163 : 197   1 : 35
+*NODE_83_length_104_cov_15.7551    :    NODE_22_length_392_cov_5160.42
+1 : 104   1 : 59
+*NODE_83_length_104_cov_15.7551    :    NODE_1_length_4930_cov_3093.5
+1 : 55   4876 : 4930
+*NODE_84_length_103_cov_97.1667    :    NODE_9_length_1365_cov_485.237
+1 : 103   376 : 276
+*NODE_84_length_103_cov_97.1667    :    NODE_101_length_68_cov_28.0769
+1 : 55   14 : 68
+*NODE_84_length_103_cov_97.1667    :    NODE_100_length_68_cov_29.8462
+1 : 55   55 : 1
+*NODE_84_length_103_cov_97.1667    :    NODE_99_length_68_cov_41.8462
+1 : 55   55 : 1
+*NODE_84_length_103_cov_97.1667    :    NODE_98_length_68_cov_95.8462
+1 : 57   14 : 68
+*NODE_84_length_103_cov_97.1667    :    NODE_97_length_68_cov_170.846
+1 : 57   55 : 1
+*NODE_84_length_103_cov_97.1667    :    NODE_89_length_92_cov_42.0541
+1 : 57   38 : 92
+*NODE_84_length_103_cov_97.1667    :    NODE_95_length_79_cov_126.708
+1 : 42   42 : 1
+*NODE_84_length_103_cov_97.1667    :    NODE_94_length_79_cov_206.458
+1 : 42   42 : 1
+*NODE_84_length_103_cov_97.1667    :    NODE_91_length_90_cov_205.743
+1 : 42   49 : 90
+*NODE_87_length_92_cov_228.622    :    NODE_90_length_92_cov_21.4324
+1 : 92   92 : 1
+*NODE_87_length_92_cov_228.622    :    NODE_88_length_92_cov_105.892
+1 : 92   1 : 92
+*NODE_87_length_92_cov_228.622    :    NODE_11_length_1043_cov_535.583
+1 : 92   194 : 285
+*NODE_87_length_92_cov_228.622    :    NODE_94_length_79_cov_206.458
+26 : 92   13 : 79
+*NODE_87_length_92_cov_228.622    :    NODE_89_length_92_cov_42.0541
+5 : 92   88 : 1
+*NODE_87_length_92_cov_228.622    :    NODE_9_length_1365_cov_485.237
+5 : 92   326 : 413
+*NODE_87_length_92_cov_228.622    :    NODE_95_length_79_cov_126.708
+26 : 92   13 : 79
+*NODE_87_length_92_cov_228.622    :    NODE_91_length_90_cov_205.743
+29 : 92   75 : 12
+*NODE_87_length_92_cov_228.622    :    NODE_102_length_66_cov_366.818
+38 : 92   66 : 12
+*NODE_87_length_92_cov_228.622    :    NODE_104_length_66_cov_50.5455
+38 : 92   1 : 55
+*NODE_87_length_92_cov_228.622    :    NODE_103_length_66_cov_197.909
+38 : 92   66 : 12
+*NODE_87_length_92_cov_228.622    :    NODE_106_length_63_cov_153.375
+49 : 92   1 : 44
+*NODE_87_length_92_cov_228.622    :    NODE_105_length_63_cov_184.125
+49 : 92   1 : 44
+*NODE_87_length_92_cov_228.622    :    NODE_110_length_63_cov_11.375
+49 : 92   63 : 20
+*NODE_87_length_92_cov_228.622    :    NODE_109_length_63_cov_30.625
+49 : 92   1 : 44
+*NODE_87_length_92_cov_228.622    :    NODE_108_length_63_cov_72.625
+49 : 92   1 : 44
+*NODE_87_length_92_cov_228.622    :    NODE_107_length_63_cov_107.875
+49 : 92   1 : 44
+*NODE_87_length_92_cov_228.622    :    NODE_97_length_68_cov_170.846
+5 : 68   5 : 68
+*NODE_87_length_92_cov_228.622    :    NODE_99_length_68_cov_41.8462
+26 : 68   26 : 68
+*NODE_88_length_92_cov_105.892    :    NODE_90_length_92_cov_21.4324
+1 : 92   92 : 1
+*NODE_88_length_92_cov_105.892    :    NODE_87_length_92_cov_228.622
+1 : 92   1 : 92
+*NODE_88_length_92_cov_105.892    :    NODE_11_length_1043_cov_535.583
+1 : 92   194 : 285
+*NODE_88_length_92_cov_105.892    :    NODE_95_length_79_cov_126.708
+26 : 92   13 : 79
+*NODE_88_length_92_cov_105.892    :    NODE_89_length_92_cov_42.0541
+5 : 92   88 : 1
+*NODE_88_length_92_cov_105.892    :    NODE_9_length_1365_cov_485.237
+5 : 92   326 : 413
+*NODE_88_length_92_cov_105.892    :    NODE_94_length_79_cov_206.458
+26 : 92   13 : 79
+*NODE_88_length_92_cov_105.892    :    NODE_91_length_90_cov_205.743
+29 : 92   75 : 12
+*NODE_88_length_92_cov_105.892    :    NODE_103_length_66_cov_197.909
+38 : 92   66 : 12
+*NODE_88_length_92_cov_105.892    :    NODE_104_length_66_cov_50.5455
+38 : 92   1 : 55
+*NODE_88_length_92_cov_105.892    :    NODE_102_length_66_cov_366.818
+38 : 92   66 : 12
+*NODE_88_length_92_cov_105.892    :    NODE_108_length_63_cov_72.625
+49 : 92   1 : 44
+*NODE_88_length_92_cov_105.892    :    NODE_107_length_63_cov_107.875
+49 : 92   1 : 44
+*NODE_88_length_92_cov_105.892    :    NODE_110_length_63_cov_11.375
+49 : 92   63 : 20
+*NODE_88_length_92_cov_105.892    :    NODE_109_length_63_cov_30.625
+49 : 92   1 : 44
+*NODE_88_length_92_cov_105.892    :    NODE_106_length_63_cov_153.375
+49 : 92   1 : 44
+*NODE_88_length_92_cov_105.892    :    NODE_105_length_63_cov_184.125
+49 : 92   1 : 44
+*NODE_88_length_92_cov_105.892    :    NODE_98_length_68_cov_95.8462
+5 : 68   64 : 1
+*NODE_88_length_92_cov_105.892    :    NODE_101_length_68_cov_28.0769
+29 : 68   40 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_9_length_1365_cov_485.237
+1 : 92   413 : 322
+*NODE_89_length_92_cov_42.0541    :    NODE_95_length_79_cov_126.708
+1 : 79   79 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_94_length_79_cov_206.458
+1 : 79   79 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_91_length_90_cov_205.743
+1 : 79   12 : 90
+*NODE_89_length_92_cov_42.0541    :    NODE_98_length_68_cov_95.8462
+25 : 92   1 : 68
+*NODE_89_length_92_cov_42.0541    :    NODE_97_length_68_cov_170.846
+25 : 92   68 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_90_length_92_cov_21.4324
+1 : 88   1 : 88
+*NODE_89_length_92_cov_42.0541    :    NODE_88_length_92_cov_105.892
+1 : 88   92 : 5
+*NODE_89_length_92_cov_42.0541    :    NODE_87_length_92_cov_228.622
+1 : 88   92 : 5
+*NODE_89_length_92_cov_42.0541    :    NODE_11_length_1043_cov_535.583
+1 : 88   285 : 198
+*NODE_89_length_92_cov_42.0541    :    NODE_101_length_68_cov_28.0769
+25 : 90   1 : 68
+*NODE_89_length_92_cov_42.0541    :    NODE_100_length_68_cov_29.8462
+25 : 90   68 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_99_length_68_cov_41.8462
+25 : 90   68 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_104_length_66_cov_50.5455
+1 : 55   55 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_103_length_66_cov_197.909
+1 : 55   12 : 66
+*NODE_89_length_92_cov_42.0541    :    NODE_102_length_66_cov_366.818
+1 : 55   12 : 66
+*NODE_89_length_92_cov_42.0541    :    NODE_84_length_103_cov_97.1667
+38 : 92   1 : 57
+*NODE_89_length_92_cov_42.0541    :    NODE_110_length_63_cov_11.375
+1 : 44   20 : 63
+*NODE_89_length_92_cov_42.0541    :    NODE_109_length_63_cov_30.625
+1 : 44   44 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_108_length_63_cov_72.625
+1 : 44   44 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_107_length_63_cov_107.875
+1 : 44   44 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_106_length_63_cov_153.375
+1 : 44   44 : 1
+*NODE_89_length_92_cov_42.0541    :    NODE_105_length_63_cov_184.125
+1 : 44   44 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_88_length_92_cov_105.892
+1 : 92   92 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_87_length_92_cov_228.622
+1 : 92   92 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_11_length_1043_cov_535.583
+1 : 92   285 : 194
+*NODE_90_length_92_cov_21.4324    :    NODE_89_length_92_cov_42.0541
+1 : 88   1 : 88
+*NODE_90_length_92_cov_21.4324    :    NODE_9_length_1365_cov_485.237
+1 : 88   413 : 326
+*NODE_90_length_92_cov_21.4324    :    NODE_95_length_79_cov_126.708
+1 : 67   79 : 13
+*NODE_90_length_92_cov_21.4324    :    NODE_94_length_79_cov_206.458
+1 : 67   79 : 13
+*NODE_90_length_92_cov_21.4324    :    NODE_91_length_90_cov_205.743
+1 : 64   12 : 75
+*NODE_90_length_92_cov_21.4324    :    NODE_104_length_66_cov_50.5455
+1 : 55   55 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_103_length_66_cov_197.909
+1 : 55   12 : 66
+*NODE_90_length_92_cov_21.4324    :    NODE_102_length_66_cov_366.818
+1 : 55   12 : 66
+*NODE_90_length_92_cov_21.4324    :    NODE_110_length_63_cov_11.375
+1 : 44   20 : 63
+*NODE_90_length_92_cov_21.4324    :    NODE_109_length_63_cov_30.625
+1 : 44   44 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_108_length_63_cov_72.625
+1 : 44   44 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_107_length_63_cov_107.875
+1 : 44   44 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_106_length_63_cov_153.375
+1 : 44   44 : 1
+*NODE_90_length_92_cov_21.4324    :    NODE_105_length_63_cov_184.125
+1 : 44   44 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_9_length_1365_cov_485.237
+1 : 90   424 : 335
+*NODE_91_length_90_cov_205.743    :    NODE_95_length_79_cov_126.708
+12 : 90   79 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_94_length_79_cov_206.458
+12 : 90   79 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_89_length_92_cov_42.0541
+12 : 90   1 : 79
+*NODE_91_length_90_cov_205.743    :    NODE_11_length_1043_cov_535.583
+1 : 78   296 : 219
+*NODE_91_length_90_cov_205.743    :    NODE_104_length_66_cov_50.5455
+1 : 66   66 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_103_length_66_cov_197.909
+1 : 66   1 : 66
+*NODE_91_length_90_cov_205.743    :    NODE_102_length_66_cov_366.818
+1 : 66   1 : 66
+*NODE_91_length_90_cov_205.743    :    NODE_90_length_92_cov_21.4324
+12 : 75   1 : 64
+*NODE_91_length_90_cov_205.743    :    NODE_88_length_92_cov_105.892
+12 : 78   92 : 26
+*NODE_91_length_90_cov_205.743    :    NODE_87_length_92_cov_228.622
+12 : 78   92 : 26
+*NODE_91_length_90_cov_205.743    :    NODE_100_length_68_cov_29.8462
+36 : 90   68 : 14
+*NODE_91_length_90_cov_205.743    :    NODE_110_length_63_cov_11.375
+1 : 55   9 : 63
+*NODE_91_length_90_cov_205.743    :    NODE_109_length_63_cov_30.625
+1 : 55   55 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_108_length_63_cov_72.625
+1 : 55   55 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_107_length_63_cov_107.875
+1 : 55   55 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_106_length_63_cov_153.375
+1 : 55   55 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_105_length_63_cov_184.125
+1 : 55   55 : 1
+*NODE_91_length_90_cov_205.743    :    NODE_101_length_68_cov_28.0769
+36 : 90   1 : 55
+*NODE_91_length_90_cov_205.743    :    NODE_99_length_68_cov_41.8462
+36 : 90   68 : 14
+*NODE_91_length_90_cov_205.743    :    NODE_98_length_68_cov_95.8462
+36 : 90   1 : 55
+*NODE_91_length_90_cov_205.743    :    NODE_97_length_68_cov_170.846
+36 : 90   68 : 14
+*NODE_91_length_90_cov_205.743    :    NODE_84_length_103_cov_97.1667
+49 : 90   1 : 42
+*NODE_94_length_79_cov_206.458    :    NODE_95_length_79_cov_126.708
+1 : 79   1 : 79
+*NODE_94_length_79_cov_206.458    :    NODE_91_length_90_cov_205.743
+1 : 79   90 : 12
+*NODE_94_length_79_cov_206.458    :    NODE_89_length_92_cov_42.0541
+1 : 79   79 : 1
+*NODE_94_length_79_cov_206.458    :    NODE_9_length_1365_cov_485.237
+1 : 79   335 : 413
+*NODE_94_length_79_cov_206.458    :    NODE_87_length_92_cov_228.622
+13 : 79   26 : 92
+*NODE_94_length_79_cov_206.458    :    NODE_90_length_92_cov_21.4324
+16 : 79   64 : 1
+*NODE_94_length_79_cov_206.458    :    NODE_88_length_92_cov_105.892
+13 : 79   26 : 92
+*NODE_94_length_79_cov_206.458    :    NODE_11_length_1043_cov_535.583
+13 : 79   219 : 285
+*NODE_94_length_79_cov_206.458    :    NODE_102_length_66_cov_366.818
+25 : 79   66 : 12
+*NODE_94_length_79_cov_206.458    :    NODE_99_length_68_cov_41.8462
+1 : 55   14 : 68
+*NODE_94_length_79_cov_206.458    :    NODE_97_length_68_cov_170.846
+1 : 55   14 : 68
+*NODE_94_length_79_cov_206.458    :    NODE_104_length_66_cov_50.5455
+25 : 79   1 : 55
+*NODE_94_length_79_cov_206.458    :    NODE_103_length_66_cov_197.909
+25 : 79   66 : 12
+*NODE_94_length_79_cov_206.458    :    NODE_101_length_68_cov_28.0769
+1 : 55   55 : 1
+*NODE_94_length_79_cov_206.458    :    NODE_100_length_68_cov_29.8462
+1 : 55   14 : 68
+*NODE_94_length_79_cov_206.458    :    NODE_98_length_68_cov_95.8462
+1 : 55   55 : 1
+*NODE_94_length_79_cov_206.458    :    NODE_106_length_63_cov_153.375
+36 : 79   1 : 44
+*NODE_94_length_79_cov_206.458    :    NODE_105_length_63_cov_184.125
+36 : 79   1 : 44
+*NODE_94_length_79_cov_206.458    :    NODE_84_length_103_cov_97.1667
+1 : 42   42 : 1
+*NODE_94_length_79_cov_206.458    :    NODE_110_length_63_cov_11.375
+36 : 79   63 : 20
+*NODE_94_length_79_cov_206.458    :    NODE_109_length_63_cov_30.625
+36 : 79   1 : 44
+*NODE_94_length_79_cov_206.458    :    NODE_108_length_63_cov_72.625
+36 : 79   1 : 44
+*NODE_94_length_79_cov_206.458    :    NODE_107_length_63_cov_107.875
+36 : 79   1 : 44
+*NODE_95_length_79_cov_126.708    :    NODE_94_length_79_cov_206.458
+1 : 79   1 : 79
+*NODE_95_length_79_cov_126.708    :    NODE_91_length_90_cov_205.743
+1 : 79   90 : 12
+*NODE_95_length_79_cov_126.708    :    NODE_89_length_92_cov_42.0541
+1 : 79   79 : 1
+*NODE_95_length_79_cov_126.708    :    NODE_9_length_1365_cov_485.237
+1 : 79   335 : 413
+*NODE_95_length_79_cov_126.708    :    NODE_88_length_92_cov_105.892
+13 : 79   26 : 92
+*NODE_95_length_79_cov_126.708    :    NODE_90_length_92_cov_21.4324
+16 : 79   64 : 1
+*NODE_95_length_79_cov_126.708    :    NODE_87_length_92_cov_228.622
+13 : 79   26 : 92
+*NODE_95_length_79_cov_126.708    :    NODE_11_length_1043_cov_535.583
+13 : 79   219 : 285
+*NODE_95_length_79_cov_126.708    :    NODE_103_length_66_cov_197.909
+25 : 79   66 : 12
+*NODE_95_length_79_cov_126.708    :    NODE_101_length_68_cov_28.0769
+1 : 55   55 : 1
+*NODE_95_length_79_cov_126.708    :    NODE_98_length_68_cov_95.8462
+1 : 55   55 : 1
+*NODE_95_length_79_cov_126.708    :    NODE_104_length_66_cov_50.5455
+25 : 79   1 : 55
+*NODE_95_length_79_cov_126.708    :    NODE_102_length_66_cov_366.818
+25 : 79   66 : 12
+*NODE_95_length_79_cov_126.708    :    NODE_100_length_68_cov_29.8462
+1 : 55   14 : 68
+*NODE_95_length_79_cov_126.708    :    NODE_99_length_68_cov_41.8462
+1 : 55   14 : 68
+*NODE_95_length_79_cov_126.708    :    NODE_97_length_68_cov_170.846
+1 : 55   14 : 68
+*NODE_95_length_79_cov_126.708    :    NODE_108_length_63_cov_72.625
+36 : 79   1 : 44
+*NODE_95_length_79_cov_126.708    :    NODE_107_length_63_cov_107.875
+36 : 79   1 : 44
+*NODE_95_length_79_cov_126.708    :    NODE_84_length_103_cov_97.1667
+1 : 42   42 : 1
+*NODE_95_length_79_cov_126.708    :    NODE_110_length_63_cov_11.375
+36 : 79   63 : 20
+*NODE_95_length_79_cov_126.708    :    NODE_109_length_63_cov_30.625
+36 : 79   1 : 44
+*NODE_95_length_79_cov_126.708    :    NODE_106_length_63_cov_153.375
+36 : 79   1 : 44
+*NODE_95_length_79_cov_126.708    :    NODE_105_length_63_cov_184.125
+36 : 79   1 : 44
+*NODE_96_length_72_cov_474.235    :    NODE_5_length_1591_cov_614.671
+1 : 72   1202 : 1273
+*NODE_96_length_72_cov_474.235    :    NODE_29_length_359_cov_6.16776
+2 : 72   8 : 78
+*NODE_96_length_72_cov_474.235    :    NODE_32_length_342_cov_2.97909
+18 : 72   342 : 288
+*NODE_96_length_72_cov_474.235    :    NODE_26_length_367_cov_12.2468
+1 : 55   55 : 1
+*NODE_96_length_72_cov_474.235    :    NODE_7_length_1581_cov_723.689
+5 : 72   355 : 288
+*NODE_96_length_72_cov_474.235    :    NODE_31_length_346_cov_3.62887
+13 : 72   341 : 282
+*NODE_97_length_68_cov_170.846    :    NODE_98_length_68_cov_95.8462
+1 : 68   68 : 1
+*NODE_97_length_68_cov_170.846    :    NODE_89_length_92_cov_42.0541
+1 : 68   92 : 25
+*NODE_97_length_68_cov_170.846    :    NODE_9_length_1365_cov_485.237
+1 : 68   322 : 389
+*NODE_97_length_68_cov_170.846    :    NODE_99_length_68_cov_41.8462
+3 : 68   1 : 68
+*NODE_97_length_68_cov_170.846    :    NODE_101_length_68_cov_28.0769
+3 : 68   68 : 1
+*NODE_97_length_68_cov_170.846    :    NODE_100_length_68_cov_29.8462
+3 : 68   1 : 68
+*NODE_97_length_68_cov_170.846    :    NODE_94_length_79_cov_206.458
+14 : 68   1 : 55
+*NODE_97_length_68_cov_170.846    :    NODE_95_length_79_cov_126.708
+14 : 68   1 : 55
+*NODE_97_length_68_cov_170.846    :    NODE_91_length_90_cov_205.743
+14 : 68   90 : 36
+*NODE_97_length_68_cov_170.846    :    NODE_84_length_103_cov_97.1667
+1 : 55   57 : 1
+*NODE_97_length_68_cov_170.846    :    NODE_87_length_92_cov_228.622
+5 : 68   5 : 68
+*NODE_97_length_68_cov_170.846    :    NODE_102_length_66_cov_366.818
+38 : 68   66 : 36
+*NODE_98_length_68_cov_95.8462    :    NODE_97_length_68_cov_170.846
+1 : 68   68 : 1
+*NODE_98_length_68_cov_95.8462    :    NODE_89_length_92_cov_42.0541
+1 : 68   25 : 92
+*NODE_98_length_68_cov_95.8462    :    NODE_9_length_1365_cov_485.237
+1 : 68   389 : 322
+*NODE_98_length_68_cov_95.8462    :    NODE_101_length_68_cov_28.0769
+1 : 66   1 : 68
+*NODE_98_length_68_cov_95.8462    :    NODE_100_length_68_cov_29.8462
+1 : 66   68 : 1
+*NODE_98_length_68_cov_95.8462    :    NODE_99_length_68_cov_41.8462
+1 : 66   68 : 1
+*NODE_98_length_68_cov_95.8462    :    NODE_95_length_79_cov_126.708
+1 : 55   55 : 1
+*NODE_98_length_68_cov_95.8462    :    NODE_94_length_79_cov_206.458
+1 : 55   55 : 1
+*NODE_98_length_68_cov_95.8462    :    NODE_91_length_90_cov_205.743
+1 : 55   36 : 90
+*NODE_98_length_68_cov_95.8462    :    NODE_84_length_103_cov_97.1667
+14 : 68   1 : 57
+*NODE_98_length_68_cov_95.8462    :    NODE_88_length_92_cov_105.892
+1 : 64   68 : 5
+*NODE_98_length_68_cov_95.8462    :    NODE_103_length_66_cov_197.909
+1 : 31   36 : 66
+*NODE_99_length_68_cov_41.8462    :    NODE_101_length_68_cov_28.0769
+1 : 68   68 : 1
+*NODE_99_length_68_cov_41.8462    :    NODE_100_length_68_cov_29.8462
+1 : 68   1 : 68
+*NODE_99_length_68_cov_41.8462    :    NODE_97_length_68_cov_170.846
+1 : 68   3 : 68
+*NODE_99_length_68_cov_41.8462    :    NODE_98_length_68_cov_95.8462
+1 : 68   66 : 1
+*NODE_99_length_68_cov_41.8462    :    NODE_89_length_92_cov_42.0541
+1 : 68   90 : 25
+*NODE_99_length_68_cov_41.8462    :    NODE_9_length_1365_cov_485.237
+1 : 68   324 : 389
+*NODE_99_length_68_cov_41.8462    :    NODE_94_length_79_cov_206.458
+14 : 68   1 : 55
+*NODE_99_length_68_cov_41.8462    :    NODE_84_length_103_cov_97.1667
+1 : 55   55 : 1
+*NODE_99_length_68_cov_41.8462    :    NODE_95_length_79_cov_126.708
+14 : 68   1 : 55
+*NODE_99_length_68_cov_41.8462    :    NODE_91_length_90_cov_205.743
+14 : 68   90 : 36
+*NODE_99_length_68_cov_41.8462    :    NODE_87_length_92_cov_228.622
+26 : 68   26 : 68
+*NODE_99_length_68_cov_41.8462    :    NODE_102_length_66_cov_366.818
+38 : 68   66 : 36
+*NODE_100_length_68_cov_29.8462    :    NODE_101_length_68_cov_28.0769
+1 : 68   68 : 1
+*NODE_100_length_68_cov_29.8462    :    NODE_99_length_68_cov_41.8462
+1 : 68   1 : 68
+*NODE_100_length_68_cov_29.8462    :    NODE_9_length_1365_cov_485.237
+1 : 68   324 : 389
+*NODE_100_length_68_cov_29.8462    :    NODE_98_length_68_cov_95.8462
+1 : 68   66 : 1
+*NODE_100_length_68_cov_29.8462    :    NODE_97_length_68_cov_170.846
+1 : 68   3 : 68
+*NODE_100_length_68_cov_29.8462    :    NODE_89_length_92_cov_42.0541
+1 : 68   90 : 25
+*NODE_100_length_68_cov_29.8462    :    NODE_91_length_90_cov_205.743
+14 : 68   90 : 36
+*NODE_100_length_68_cov_29.8462    :    NODE_84_length_103_cov_97.1667
+1 : 55   55 : 1
+*NODE_100_length_68_cov_29.8462    :    NODE_95_length_79_cov_126.708
+14 : 68   1 : 55
+*NODE_100_length_68_cov_29.8462    :    NODE_94_length_79_cov_206.458
+14 : 68   1 : 55
+*NODE_100_length_68_cov_29.8462    :    NODE_11_length_1043_cov_535.583
+26 : 68   219 : 261
+*NODE_101_length_68_cov_28.0769    :    NODE_100_length_68_cov_29.8462
+1 : 68   68 : 1
+*NODE_101_length_68_cov_28.0769    :    NODE_99_length_68_cov_41.8462
+1 : 68   68 : 1
+*NODE_101_length_68_cov_28.0769    :    NODE_98_length_68_cov_95.8462
+1 : 68   1 : 66
+*NODE_101_length_68_cov_28.0769    :    NODE_97_length_68_cov_170.846
+1 : 68   68 : 3
+*NODE_101_length_68_cov_28.0769    :    NODE_89_length_92_cov_42.0541
+1 : 68   25 : 90
+*NODE_101_length_68_cov_28.0769    :    NODE_9_length_1365_cov_485.237
+1 : 68   389 : 324
+*NODE_101_length_68_cov_28.0769    :    NODE_95_length_79_cov_126.708
+1 : 55   55 : 1
+*NODE_101_length_68_cov_28.0769    :    NODE_84_length_103_cov_97.1667
+14 : 68   1 : 55
+*NODE_101_length_68_cov_28.0769    :    NODE_94_length_79_cov_206.458
+1 : 55   55 : 1
+*NODE_101_length_68_cov_28.0769    :    NODE_91_length_90_cov_205.743
+1 : 55   36 : 90
+*NODE_101_length_68_cov_28.0769    :    NODE_88_length_92_cov_105.892
+1 : 43   68 : 26
+*NODE_101_length_68_cov_28.0769    :    NODE_103_length_66_cov_197.909
+1 : 31   36 : 66
+*NODE_102_length_66_cov_366.818    :    NODE_104_length_66_cov_50.5455
+1 : 66   66 : 1
+*NODE_102_length_66_cov_366.818    :    NODE_103_length_66_cov_197.909
+1 : 66   1 : 66
+*NODE_102_length_66_cov_366.818    :    NODE_91_length_90_cov_205.743
+1 : 66   1 : 66
+*NODE_102_length_66_cov_366.818    :    NODE_11_length_1043_cov_535.583
+1 : 66   296 : 231
+*NODE_102_length_66_cov_366.818    :    NODE_9_length_1365_cov_485.237
+1 : 66   424 : 359
+*NODE_102_length_66_cov_366.818    :    NODE_106_length_63_cov_153.375
+1 : 55   55 : 1
+*NODE_102_length_66_cov_366.818    :    NODE_105_length_63_cov_184.125
+1 : 55   55 : 1
+*NODE_102_length_66_cov_366.818    :    NODE_94_length_79_cov_206.458
+12 : 66   79 : 25
+*NODE_102_length_66_cov_366.818    :    NODE_87_length_92_cov_228.622
+12 : 66   92 : 38
+*NODE_102_length_66_cov_366.818    :    NODE_110_length_63_cov_11.375
+1 : 55   9 : 63
+*NODE_102_length_66_cov_366.818    :    NODE_109_length_63_cov_30.625
+1 : 55   55 : 1
+*NODE_102_length_66_cov_366.818    :    NODE_108_length_63_cov_72.625
+1 : 55   55 : 1
+*NODE_102_length_66_cov_366.818    :    NODE_107_length_63_cov_107.875
+1 : 55   55 : 1
+*NODE_102_length_66_cov_366.818    :    NODE_95_length_79_cov_126.708
+12 : 66   79 : 25
+*NODE_102_length_66_cov_366.818    :    NODE_90_length_92_cov_21.4324
+12 : 66   1 : 55
+*NODE_102_length_66_cov_366.818    :    NODE_89_length_92_cov_42.0541
+12 : 66   1 : 55
+*NODE_102_length_66_cov_366.818    :    NODE_88_length_92_cov_105.892
+12 : 66   92 : 38
+*NODE_102_length_66_cov_366.818    :    NODE_99_length_68_cov_41.8462
+36 : 66   68 : 38
+*NODE_102_length_66_cov_366.818    :    NODE_97_length_68_cov_170.846
+36 : 66   68 : 38
+*NODE_103_length_66_cov_197.909    :    NODE_104_length_66_cov_50.5455
+1 : 66   66 : 1
+*NODE_103_length_66_cov_197.909    :    NODE_102_length_66_cov_366.818
+1 : 66   1 : 66
+*NODE_103_length_66_cov_197.909    :    NODE_91_length_90_cov_205.743
+1 : 66   1 : 66
+*NODE_103_length_66_cov_197.909    :    NODE_11_length_1043_cov_535.583
+1 : 66   296 : 231
+*NODE_103_length_66_cov_197.909    :    NODE_9_length_1365_cov_485.237
+1 : 66   424 : 359
+*NODE_103_length_66_cov_197.909    :    NODE_108_length_63_cov_72.625
+1 : 55   55 : 1
+*NODE_103_length_66_cov_197.909    :    NODE_107_length_63_cov_107.875
+1 : 55   55 : 1
+*NODE_103_length_66_cov_197.909    :    NODE_95_length_79_cov_126.708
+12 : 66   79 : 25
+*NODE_103_length_66_cov_197.909    :    NODE_88_length_92_cov_105.892
+12 : 66   92 : 38
+*NODE_103_length_66_cov_197.909    :    NODE_110_length_63_cov_11.375
+1 : 55   9 : 63
+*NODE_103_length_66_cov_197.909    :    NODE_109_length_63_cov_30.625
+1 : 55   55 : 1
+*NODE_103_length_66_cov_197.909    :    NODE_106_length_63_cov_153.375
+1 : 55   55 : 1
+*NODE_103_length_66_cov_197.909    :    NODE_105_length_63_cov_184.125
+1 : 55   55 : 1
+*NODE_103_length_66_cov_197.909    :    NODE_94_length_79_cov_206.458
+12 : 66   79 : 25
+*NODE_103_length_66_cov_197.909    :    NODE_90_length_92_cov_21.4324
+12 : 66   1 : 55
+*NODE_103_length_66_cov_197.909    :    NODE_89_length_92_cov_42.0541
+12 : 66   1 : 55
+*NODE_103_length_66_cov_197.909    :    NODE_87_length_92_cov_228.622
+12 : 66   92 : 38
+*NODE_103_length_66_cov_197.909    :    NODE_101_length_68_cov_28.0769
+36 : 66   1 : 31
+*NODE_103_length_66_cov_197.909    :    NODE_98_length_68_cov_95.8462
+36 : 66   1 : 31
+*NODE_104_length_66_cov_50.5455    :    NODE_103_length_66_cov_197.909
+1 : 66   66 : 1
+*NODE_104_length_66_cov_50.5455    :    NODE_102_length_66_cov_366.818
+1 : 66   66 : 1
+*NODE_104_length_66_cov_50.5455    :    NODE_91_length_90_cov_205.743
+1 : 66   66 : 1
+*NODE_104_length_66_cov_50.5455    :    NODE_11_length_1043_cov_535.583
+1 : 66   231 : 296
+*NODE_104_length_66_cov_50.5455    :    NODE_9_length_1365_cov_485.237
+1 : 66   359 : 424
+*NODE_104_length_66_cov_50.5455    :    NODE_110_length_63_cov_11.375
+12 : 66   63 : 9
+*NODE_104_length_66_cov_50.5455    :    NODE_109_length_63_cov_30.625
+12 : 66   1 : 55
+*NODE_104_length_66_cov_50.5455    :    NODE_90_length_92_cov_21.4324
+1 : 55   55 : 1
+*NODE_104_length_66_cov_50.5455    :    NODE_89_length_92_cov_42.0541
+1 : 55   55 : 1
+*NODE_104_length_66_cov_50.5455    :    NODE_108_length_63_cov_72.625
+12 : 66   1 : 55
+*NODE_104_length_66_cov_50.5455    :    NODE_107_length_63_cov_107.875
+12 : 66   1 : 55
+*NODE_104_length_66_cov_50.5455    :    NODE_106_length_63_cov_153.375
+12 : 66   1 : 55
+*NODE_104_length_66_cov_50.5455    :    NODE_105_length_63_cov_184.125
+12 : 66   1 : 55
+*NODE_104_length_66_cov_50.5455    :    NODE_95_length_79_cov_126.708
+1 : 55   25 : 79
+*NODE_104_length_66_cov_50.5455    :    NODE_94_length_79_cov_206.458
+1 : 55   25 : 79
+*NODE_104_length_66_cov_50.5455    :    NODE_88_length_92_cov_105.892
+1 : 55   38 : 92
+*NODE_104_length_66_cov_50.5455    :    NODE_87_length_92_cov_228.622
+1 : 55   38 : 92
+*NODE_105_length_63_cov_184.125    :    NODE_109_length_63_cov_30.625
+1 : 63   1 : 63
+*NODE_105_length_63_cov_184.125    :    NODE_107_length_63_cov_107.875
+1 : 63   1 : 63
+*NODE_105_length_63_cov_184.125    :    NODE_106_length_63_cov_153.375
+1 : 63   1 : 63
+*NODE_105_length_63_cov_184.125    :    NODE_9_length_1365_cov_485.237
+1 : 63   370 : 432
+*NODE_105_length_63_cov_184.125    :    NODE_110_length_63_cov_11.375
+1 : 63   63 : 1
+*NODE_105_length_63_cov_184.125    :    NODE_108_length_63_cov_72.625
+1 : 63   1 : 63
+*NODE_105_length_63_cov_184.125    :    NODE_11_length_1043_cov_535.583
+1 : 63   242 : 304
+*NODE_105_length_63_cov_184.125    :    NODE_102_length_66_cov_366.818
+1 : 55   55 : 1
+*NODE_105_length_63_cov_184.125    :    NODE_104_length_66_cov_50.5455
+1 : 55   12 : 66
+*NODE_105_length_63_cov_184.125    :    NODE_103_length_66_cov_197.909
+1 : 55   55 : 1
+*NODE_105_length_63_cov_184.125    :    NODE_91_length_90_cov_205.743
+1 : 55   55 : 1
+*NODE_105_length_63_cov_184.125    :    NODE_94_length_79_cov_206.458
+1 : 44   36 : 79
+*NODE_105_length_63_cov_184.125    :    NODE_87_length_92_cov_228.622
+1 : 44   49 : 92
+*NODE_105_length_63_cov_184.125    :    NODE_95_length_79_cov_126.708
+1 : 44   36 : 79
+*NODE_105_length_63_cov_184.125    :    NODE_90_length_92_cov_21.4324
+1 : 44   44 : 1
+*NODE_105_length_63_cov_184.125    :    NODE_89_length_92_cov_42.0541
+1 : 44   44 : 1
+*NODE_105_length_63_cov_184.125    :    NODE_88_length_92_cov_105.892
+1 : 44   49 : 92
+*NODE_106_length_63_cov_153.375    :    NODE_110_length_63_cov_11.375
+1 : 63   63 : 1
+*NODE_106_length_63_cov_153.375    :    NODE_108_length_63_cov_72.625
+1 : 63   1 : 63
+*NODE_106_length_63_cov_153.375    :    NODE_105_length_63_cov_184.125
+1 : 63   1 : 63
+*NODE_106_length_63_cov_153.375    :    NODE_11_length_1043_cov_535.583
+1 : 63   242 : 304
+*NODE_106_length_63_cov_153.375    :    NODE_109_length_63_cov_30.625
+1 : 63   1 : 63
+*NODE_106_length_63_cov_153.375    :    NODE_107_length_63_cov_107.875
+1 : 63   1 : 63
+*NODE_106_length_63_cov_153.375    :    NODE_9_length_1365_cov_485.237
+1 : 63   370 : 432
+*NODE_106_length_63_cov_153.375    :    NODE_102_length_66_cov_366.818
+1 : 55   55 : 1
+*NODE_106_length_63_cov_153.375    :    NODE_104_length_66_cov_50.5455
+1 : 55   12 : 66
+*NODE_106_length_63_cov_153.375    :    NODE_103_length_66_cov_197.909
+1 : 55   55 : 1
+*NODE_106_length_63_cov_153.375    :    NODE_91_length_90_cov_205.743
+1 : 55   55 : 1
+*NODE_106_length_63_cov_153.375    :    NODE_94_length_79_cov_206.458
+1 : 44   36 : 79
+*NODE_106_length_63_cov_153.375    :    NODE_87_length_92_cov_228.622
+1 : 44   49 : 92
+*NODE_106_length_63_cov_153.375    :    NODE_95_length_79_cov_126.708
+1 : 44   36 : 79
+*NODE_106_length_63_cov_153.375    :    NODE_90_length_92_cov_21.4324
+1 : 44   44 : 1
+*NODE_106_length_63_cov_153.375    :    NODE_89_length_92_cov_42.0541
+1 : 44   44 : 1
+*NODE_106_length_63_cov_153.375    :    NODE_88_length_92_cov_105.892
+1 : 44   49 : 92
+*NODE_107_length_63_cov_107.875    :    NODE_109_length_63_cov_30.625
+1 : 63   1 : 63
+*NODE_107_length_63_cov_107.875    :    NODE_108_length_63_cov_72.625
+1 : 63   1 : 63
+*NODE_107_length_63_cov_107.875    :    NODE_105_length_63_cov_184.125
+1 : 63   1 : 63
+*NODE_107_length_63_cov_107.875    :    NODE_9_length_1365_cov_485.237
+1 : 63   370 : 432
+*NODE_107_length_63_cov_107.875    :    NODE_110_length_63_cov_11.375
+1 : 63   63 : 1
+*NODE_107_length_63_cov_107.875    :    NODE_106_length_63_cov_153.375
+1 : 63   1 : 63
+*NODE_107_length_63_cov_107.875    :    NODE_11_length_1043_cov_535.583
+1 : 63   242 : 304
+*NODE_107_length_63_cov_107.875    :    NODE_103_length_66_cov_197.909
+1 : 55   55 : 1
+*NODE_107_length_63_cov_107.875    :    NODE_104_length_66_cov_50.5455
+1 : 55   12 : 66
+*NODE_107_length_63_cov_107.875    :    NODE_102_length_66_cov_366.818
+1 : 55   55 : 1
+*NODE_107_length_63_cov_107.875    :    NODE_91_length_90_cov_205.743
+1 : 55   55 : 1
+*NODE_107_length_63_cov_107.875    :    NODE_95_length_79_cov_126.708
+1 : 44   36 : 79
+*NODE_107_length_63_cov_107.875    :    NODE_88_length_92_cov_105.892
+1 : 44   49 : 92
+*NODE_107_length_63_cov_107.875    :    NODE_94_length_79_cov_206.458
+1 : 44   36 : 79
+*NODE_107_length_63_cov_107.875    :    NODE_90_length_92_cov_21.4324
+1 : 44   44 : 1
+*NODE_107_length_63_cov_107.875    :    NODE_89_length_92_cov_42.0541
+1 : 44   44 : 1
+*NODE_107_length_63_cov_107.875    :    NODE_87_length_92_cov_228.622
+1 : 44   49 : 92
+*NODE_108_length_63_cov_72.625    :    NODE_110_length_63_cov_11.375
+1 : 63   63 : 1
+*NODE_108_length_63_cov_72.625    :    NODE_107_length_63_cov_107.875
+1 : 63   1 : 63
+*NODE_108_length_63_cov_72.625    :    NODE_106_length_63_cov_153.375
+1 : 63   1 : 63
+*NODE_108_length_63_cov_72.625    :    NODE_11_length_1043_cov_535.583
+1 : 63   242 : 304
+*NODE_108_length_63_cov_72.625    :    NODE_109_length_63_cov_30.625
+1 : 63   1 : 63
+*NODE_108_length_63_cov_72.625    :    NODE_105_length_63_cov_184.125
+1 : 63   1 : 63
+*NODE_108_length_63_cov_72.625    :    NODE_9_length_1365_cov_485.237
+1 : 63   370 : 432
+*NODE_108_length_63_cov_72.625    :    NODE_103_length_66_cov_197.909
+1 : 55   55 : 1
+*NODE_108_length_63_cov_72.625    :    NODE_104_length_66_cov_50.5455
+1 : 55   12 : 66
+*NODE_108_length_63_cov_72.625    :    NODE_102_length_66_cov_366.818
+1 : 55   55 : 1
+*NODE_108_length_63_cov_72.625    :    NODE_91_length_90_cov_205.743
+1 : 55   55 : 1
+*NODE_108_length_63_cov_72.625    :    NODE_95_length_79_cov_126.708
+1 : 44   36 : 79
+*NODE_108_length_63_cov_72.625    :    NODE_88_length_92_cov_105.892
+1 : 44   49 : 92
+*NODE_108_length_63_cov_72.625    :    NODE_94_length_79_cov_206.458
+1 : 44   36 : 79
+*NODE_108_length_63_cov_72.625    :    NODE_90_length_92_cov_21.4324
+1 : 44   44 : 1
+*NODE_108_length_63_cov_72.625    :    NODE_89_length_92_cov_42.0541
+1 : 44   44 : 1
+*NODE_108_length_63_cov_72.625    :    NODE_87_length_92_cov_228.622
+1 : 44   49 : 92
+*NODE_109_length_63_cov_30.625    :    NODE_110_length_63_cov_11.375
+1 : 63   63 : 1
+*NODE_109_length_63_cov_30.625    :    NODE_107_length_63_cov_107.875
+1 : 63   1 : 63
+*NODE_109_length_63_cov_30.625    :    NODE_105_length_63_cov_184.125
+1 : 63   1 : 63
+*NODE_109_length_63_cov_30.625    :    NODE_9_length_1365_cov_485.237
+1 : 63   370 : 432
+*NODE_109_length_63_cov_30.625    :    NODE_108_length_63_cov_72.625
+1 : 63   1 : 63
+*NODE_109_length_63_cov_30.625    :    NODE_106_length_63_cov_153.375
+1 : 63   1 : 63
+*NODE_109_length_63_cov_30.625    :    NODE_11_length_1043_cov_535.583
+1 : 63   242 : 304
+*NODE_109_length_63_cov_30.625    :    NODE_104_length_66_cov_50.5455
+1 : 55   12 : 66
+*NODE_109_length_63_cov_30.625    :    NODE_103_length_66_cov_197.909
+1 : 55   55 : 1
+*NODE_109_length_63_cov_30.625    :    NODE_102_length_66_cov_366.818
+1 : 55   55 : 1
+*NODE_109_length_63_cov_30.625    :    NODE_91_length_90_cov_205.743
+1 : 55   55 : 1
+*NODE_109_length_63_cov_30.625    :    NODE_90_length_92_cov_21.4324
+1 : 44   44 : 1
+*NODE_109_length_63_cov_30.625    :    NODE_89_length_92_cov_42.0541
+1 : 44   44 : 1
+*NODE_109_length_63_cov_30.625    :    NODE_95_length_79_cov_126.708
+1 : 44   36 : 79
+*NODE_109_length_63_cov_30.625    :    NODE_94_length_79_cov_206.458
+1 : 44   36 : 79
+*NODE_109_length_63_cov_30.625    :    NODE_88_length_92_cov_105.892
+1 : 44   49 : 92
+*NODE_109_length_63_cov_30.625    :    NODE_87_length_92_cov_228.622
+1 : 44   49 : 92
+*NODE_110_length_63_cov_11.375    :    NODE_109_length_63_cov_30.625
+1 : 63   63 : 1
+*NODE_110_length_63_cov_11.375    :    NODE_108_length_63_cov_72.625
+1 : 63   63 : 1
+*NODE_110_length_63_cov_11.375    :    NODE_106_length_63_cov_153.375
+1 : 63   63 : 1
+*NODE_110_length_63_cov_11.375    :    NODE_11_length_1043_cov_535.583
+1 : 63   304 : 242
+*NODE_110_length_63_cov_11.375    :    NODE_107_length_63_cov_107.875
+1 : 63   63 : 1
+*NODE_110_length_63_cov_11.375    :    NODE_105_length_63_cov_184.125
+1 : 63   63 : 1
+*NODE_110_length_63_cov_11.375    :    NODE_9_length_1365_cov_485.237
+1 : 63   432 : 370
+*NODE_110_length_63_cov_11.375    :    NODE_104_length_66_cov_50.5455
+9 : 63   66 : 12
+*NODE_110_length_63_cov_11.375    :    NODE_103_length_66_cov_197.909
+9 : 63   1 : 55
+*NODE_110_length_63_cov_11.375    :    NODE_102_length_66_cov_366.818
+9 : 63   1 : 55
+*NODE_110_length_63_cov_11.375    :    NODE_91_length_90_cov_205.743
+9 : 63   1 : 55
+*NODE_110_length_63_cov_11.375    :    NODE_90_length_92_cov_21.4324
+20 : 63   1 : 44
+*NODE_110_length_63_cov_11.375    :    NODE_89_length_92_cov_42.0541
+20 : 63   1 : 44
+*NODE_110_length_63_cov_11.375    :    NODE_95_length_79_cov_126.708
+20 : 63   79 : 36
+*NODE_110_length_63_cov_11.375    :    NODE_94_length_79_cov_206.458
+20 : 63   79 : 36
+*NODE_110_length_63_cov_11.375    :    NODE_88_length_92_cov_105.892
+20 : 63   92 : 49
+*NODE_110_length_63_cov_11.375    :    NODE_87_length_92_cov_228.622
+20 : 63   92 : 49
+*
