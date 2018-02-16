@@ -49,8 +49,9 @@ public class Main   {
 	
 	loc2 = null; 
 	
-	int returnVal2 = fcl.showOpenDialog(null);
 	final JFileChooser fcr = new JFileChooser();
+
+	int returnVal2 = fcr.showOpenDialog(null);
 	if (returnVal2 == JFileChooser.APPROVE_OPTION) {
 	    File file = fcr.getSelectedFile();
 	   	//loc2 recives the reverse read .fastq location
