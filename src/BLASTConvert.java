@@ -172,7 +172,6 @@ public class BLASTConvert {
     		
     		// Here, we are inside a loop that reads the output from STEP 1, line by line
     		
-    		
     		if(line.startsWith("*")) {
 
     	    int aa[] = convertIntegers(a);
@@ -373,8 +372,8 @@ public class BLASTConvert {
 	    	
 	    	String keySplit[] = keyRead.split("\\s+");
 	    	
-	        /* The below line calls a function named printScaff that creates the homology blocks adding the key to the end of the values by fetching the coressponding 
-	    	    values from the scaffMap we made from scaffolds.fasta, we call this printScaff seperately for the key since we have the same key with many read lengths.
+	        /* The below line calls a function named printScaff that creates and completes the homology blocks by adding the key to the end of the values by fetching the coressponding 
+	    	   values from the scaffMap we made from scaffolds.fasta, we call this printScaff seperately for the key since we have the same key with many read lengths.
 	    	*/	
 	    	printScaff(">" + key, scaffMap, keySplit[0], keySplit[2], writer3);
 	    	
@@ -414,7 +413,7 @@ public class BLASTConvert {
    
   
    
-	//This function does the final conversion
+	//This function does the final conversion by fetching the reads from scaffolds.fasta files and writing it into the Homology Block. 
 	
 	 public static void printScaff(String key,  Multimap<String, String> scaffMap, String start, String end, PrintWriter writer7) {
 		   
@@ -422,17 +421,20 @@ public class BLASTConvert {
 		    int s = Integer.parseInt(start); 
 		    
 		    //To start from index 0 
-		    s--; 
+		    s = s - 1; 
 		    
 		    int e = Integer.parseInt(end); 
-		   // writer3.println(s + " " + e);
+
 		    writer7.println(key);
 			
 			Collection<String> values = scaffMap.get(key); 
 		
 			Iterator<String> it = values.iterator(); 
+
 			String scaff = ""; 
+
 			while(it.hasNext()) {
+
 				scaff += it.next();
 				
 			}
@@ -447,12 +449,8 @@ public class BLASTConvert {
 				
 				rev.append(scaff.substring(e, s)); 
 				
-			//	writer3.println(rev.toString());
-				
 				rev = rev.reverse();
 				
-			//	writer3.println(rev.toString());
-
 				
 				Map<Character, Character> revMap = new HashMap<>(); 
 				revMap.put('A', 'T'); 
