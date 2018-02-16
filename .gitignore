@@ -5,3 +5,6 @@ SPAdes-3.10.1-Linux/
 google-guava.jar
 bin/
 Output/
+.classpath
+.project
+.settings/
