@@ -49,6 +49,7 @@ public class Main   {
 	
 	loc2 = null; 
 	
+	int returnVal2 = fcl.showOpenDialog(null);
 	final JFileChooser fcr = new JFileChooser();
 	if (returnVal2 == JFileChooser.APPROVE_OPTION) {
 	    File file = fcr.getSelectedFile();
