@@ -26,7 +26,7 @@ public class AlignmentFinal {
         
 		for(int i =  1; i <=size; i++) {
 	    
-		String[] commands = {"./bwa","mem", "../Output/HomologyBlocks/"+i+".fasta", loc1, loc2, "-o", "../Output/SAM/aln-pe"+i+".sam"};
+		String[] commands = {"./bwa","mem", "-t", "40", "../Output/HomologyBlocks/"+i+".fasta", loc1, loc2, "-o", "../Output/SAM/aln-pe"+i+".sam"};
 		pb.command(commands);
 		
 		try {

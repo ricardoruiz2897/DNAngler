@@ -60,13 +60,13 @@ public class Main   {
 	
 	System.out.println("Reverse paired-end reads location: " + loc2);
 
-	
-	/*This section calls the meataspades assembler. In order to gain more insight into the working
+	/*
+	This section calls the meataspades assembler. In order to gain more insight into the working
 	of the assembler please open the Assembler.java file
 	Commannds: pb.command("./metaspades.py", "-t 20", "--pe1-1", loc1, "--pe1-2", loc2, "-o", "../../Output");
 	*/
 	
-	/*Assembler asm = new Assembler();
+	Assembler asm = new Assembler();
 	
 	Process p = asm.run(loc1, loc2);
 	
@@ -78,8 +78,7 @@ public class Main   {
 	    	
 	    }
 	}); 
-	processExitDetector.run(); */
-	alignment();
+	processExitDetector.run(); 
 	
 	}
 	
