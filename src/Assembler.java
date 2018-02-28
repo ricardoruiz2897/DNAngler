@@ -20,7 +20,7 @@ public class Assembler{
 		File f = new File("SPAdes-3.10.1-Linux/bin");
 		ProcessBuilder pb = new ProcessBuilder();
         pb.directory(f);
-        pb.command("./metaspades.py", "-t 20", "--pe1-1", loc1, "--pe1-2", loc2, "-o", "../../Output");
+        pb.command("./metaspades.py", "-t 43", "--pe1-1", loc1, "--pe1-2", loc2, "-o", "../../Output");
         Process p = null;
 		try {
 			p =  pb.start();

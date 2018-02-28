@@ -66,7 +66,7 @@ public class Main   {
 	Commannds: pb.command("./metaspades.py", "-t 20", "--pe1-1", loc1, "--pe1-2", loc2, "-o", "../../Output");
 	*/
 	
-	Assembler asm = new Assembler();
+	/*Assembler asm = new Assembler();
 	
 	Process p = asm.run(loc1, loc2);
 	
@@ -78,7 +78,8 @@ public class Main   {
 	    	
 	    }
 	}); 
-	processExitDetector.run(); 
+	processExitDetector.run(); */
+	alignment();
 	
 	}
 	

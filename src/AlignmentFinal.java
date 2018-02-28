@@ -22,6 +22,8 @@ public class AlignmentFinal {
 
         size = size / 6;
         
+        System.out.println("\n\n\nHomology Size : " + size);
+        
 		for(int i =  1; i <=size; i++) {
 	    
 		String[] commands = {"./bwa","mem", "../Output/HomologyBlocks/"+i+".fasta", loc1, loc2, "-o", "../Output/SAM/aln-pe"+i+".sam"};
@@ -33,6 +35,15 @@ public class AlignmentFinal {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+		
+
+		try {
+			p.waitFor();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		}
 		
 		//Code for Converting and Indexing .sam to .bam files 
@@ -41,7 +52,7 @@ public class AlignmentFinal {
 		
 		new File("Output/BAM").mkdir();
 
-		/*pb.directory(new File("Samtools/"));
+		pb.directory(new File("Samtools/"));
 
 
         int max = new File("Output/SAM/").listFiles().length; 
@@ -54,13 +65,21 @@ public class AlignmentFinal {
     		pb.command(command);
     		
     		try {
-    			p = pb.start();
+    			p = pb.start();    			
     		} catch (IOException e1) {
     			// TODO Auto-generated catch block
     			e1.printStackTrace();
     		}
     		
-        }
+			try {
+				p.waitFor();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+    		
+        } 
         
 		for(int i = 1; i <= max; i++) {
 		        	
@@ -75,7 +94,14 @@ public class AlignmentFinal {
 		    			e1.printStackTrace();
 		    		}
 		    		
-		        }*/
+		    		try {
+						p.waitFor();
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+		        }
 		
 	
 		BufferedReader stdInput = new BufferedReader(new 
