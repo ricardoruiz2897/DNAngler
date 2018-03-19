@@ -34,8 +34,9 @@ public class Main {
 
     Scanner in = new Scanner(System.in);
 
-    loc1 = null;
-
+    loc1 = in.nextLine();
+    
+    /*
     final JFileChooser fcl = new JFileChooser();
 
     int returnVal1 = fcl.showOpenDialog(null);
@@ -45,13 +46,13 @@ public class Main {
       // loc1 recives the forwards read .fastq location
       loc1 = file.getAbsolutePath();
     }
-
+    */
     System.out.println("Forward paired-end reads location: " + loc1);
 
     System.out.println("\nPlease specify file with reverse paired-end reads:");
 
-    loc2 = null;
-
+    loc2 = in.nextLine();
+    /*
     final JFileChooser fcr = new JFileChooser();
 
     int returnVal2 = fcr.showOpenDialog(null);
@@ -60,7 +61,8 @@ public class Main {
       // loc2 recives the reverse read .fastq location
       loc2 = file.getAbsolutePath();
     }
-
+	*/
+    
     System.out.println("Reverse paired-end reads location: " + loc2);
 
     /*
