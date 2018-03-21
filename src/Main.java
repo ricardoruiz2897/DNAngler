@@ -27,7 +27,10 @@ public class Main {
 
     // This part prompts the user to enter information about the location of the
     // fastq input files.
+	
+	System.out.println("Please enter Y or u y for GUI SUPPORT ?");
 
+	
     System.out.println("DNAnglerPipeline");
 
     System.out.println("\nPlease specify file with forward paired-end reads:");
