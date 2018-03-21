@@ -27,19 +27,21 @@ public class Main {
 
     // This part prompts the user to enter information about the location of the
     // fastq input files.
-	
-	System.out.println("Please enter Y or u y for GUI SUPPORT ?");
-
-	
+	  
+	Scanner reader = new Scanner(System.in);  // Reading from System.in
     System.out.println("DNAnglerPipeline");
-
-    System.out.println("\nPlease specify file with forward paired-end reads:");
-
-    Scanner in = new Scanner(System.in);
-
-    loc1 = in.nextLine();
     
-    /*
+	
+	System.out.println("Please enter Y for GUI SUPPORT or else Nn");
+
+	String s  = reader.next(); // Scans the next token of the input as an int.
+	  //once finished
+	reader.close();
+	
+	if(s.equals("y") || s.equals("Y")) {
+		
+    System.out.println("\nPlease specify file with forward paired-end reads:");    
+  
     final JFileChooser fcl = new JFileChooser();
 
     int returnVal1 = fcl.showOpenDialog(null);
@@ -49,13 +51,12 @@ public class Main {
       // loc1 recives the forwards read .fastq location
       loc1 = file.getAbsolutePath();
     }
-    */
+    
     System.out.println("Forward paired-end reads location: " + loc1);
 
     System.out.println("\nPlease specify file with reverse paired-end reads:");
 
-    loc2 = in.nextLine();
-    /*
+    
     final JFileChooser fcr = new JFileChooser();
 
     int returnVal2 = fcr.showOpenDialog(null);
@@ -64,9 +65,29 @@ public class Main {
       // loc2 recives the reverse read .fastq location
       loc2 = file.getAbsolutePath();
     }
-	*/
     
     System.out.println("Reverse paired-end reads location: " + loc2);
+    
+	} else {
+		
+	    Scanner in = new Scanner(System.in);
+
+	    System.out.println("\nPlease specify file with forward paired-end reads:");
+
+	    loc1 = in.nextLine();
+	    
+		System.out.println("Forward paired-end reads location: " + loc1);
+
+	    System.out.println("\nPlease specify file with reverse paired-end reads:");
+
+	    loc2 = in.nextLine();
+	    
+	    System.out.println("Reverse paired-end reads location: " + loc2);
+
+	    
+	    
+	}
+		
 
     /*
     This section calls the meataspades assembler. In order to gain more insight
