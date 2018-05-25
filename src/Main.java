@@ -1,4 +1,4 @@
-import java.awt.event.MouseAdapter;
+
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
 import java.io.Console;
@@ -18,7 +18,7 @@ import javax.swing.JLabel;
 public class Main {
 
   // This line stores the location of the fastq files which were provided by the
-  // user
+  //
   static String loc1, loc2;
 
   // This in the main function inside the Main class which is required to
@@ -27,67 +27,20 @@ public class Main {
 
     // This part prompts the user to enter information about the location of the
     // fastq input files.
-	  
-	Scanner reader = new Scanner(System.in);  // Reading from System.in
-    System.out.println("DNAnglerPipeline");
-    
-	
-	System.out.println("Please enter Y for GUI SUPPORT or else Nn");
+				
+    Scanner in = new Scanner(System.in);
 
-	String s  = reader.next(); // Scans the next token of the input as an int.
-	  //once finished
-	reader.close();
-	
-	if(s.equals("y") || s.equals("Y")) {
-		
-    System.out.println("\nPlease specify file with forward paired-end reads:");    
-  
-    final JFileChooser fcl = new JFileChooser();
+    System.out.println("\nPlease specify file with forward paired-end reads:");
 
-    int returnVal1 = fcl.showOpenDialog(null);
-    if (returnVal1 == JFileChooser.APPROVE_OPTION) {
-      // Retrieve the selected file
-      File file = fcl.getSelectedFile();
-      // loc1 recives the forwards read .fastq location
-      loc1 = file.getAbsolutePath();
-    }
-    
+    loc1 = in.nextLine();
+	    
     System.out.println("Forward paired-end reads location: " + loc1);
 
     System.out.println("\nPlease specify file with reverse paired-end reads:");
 
-    
-    final JFileChooser fcr = new JFileChooser();
-
-    int returnVal2 = fcr.showOpenDialog(null);
-    if (returnVal2 == JFileChooser.APPROVE_OPTION) {
-      File file = fcr.getSelectedFile();
-      // loc2 recives the reverse read .fastq location
-      loc2 = file.getAbsolutePath();
-    }
-    
+    loc2 = in.nextLine();
+	    
     System.out.println("Reverse paired-end reads location: " + loc2);
-    
-	} else {
-		
-	    Scanner in = new Scanner(System.in);
-
-	    System.out.println("\nPlease specify file with forward paired-end reads:");
-
-	    loc1 = in.nextLine();
-	    
-		System.out.println("Forward paired-end reads location: " + loc1);
-
-	    System.out.println("\nPlease specify file with reverse paired-end reads:");
-
-	    loc2 = in.nextLine();
-	    
-	    System.out.println("Reverse paired-end reads location: " + loc2);
-
-	    
-	    
-	}
-		
 
     /*
     This section calls the meataspades assembler. In order to gain more insight
